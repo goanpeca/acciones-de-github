@@ -1,0 +1,9 @@
+name: Python
+
+on: [push]
+
+jobs:
+  pruebas:
+    steps:
+      - run: actions/checkout@v2
+      - script: echo "Hola!"
